@@ -109,27 +109,27 @@ function App() {
     {
       message: "Senyummu selalu jadi favoritku.",
       subtext: "Nggak pernah bosan rasanya melihat kamu bahagia.",
-      image: "/foto_sendiri_2.jpg" // Ganti dengan nama file foto dia sendiri (2)
+      image: "/foto_sendiri_2.jpg"
     },
     {
       message: "Terima kasih sudah jadi dirimu sendiri.",
       subtext: "Seseorang yang paling tangguh dan luar biasa di mataku.",
-      image: "/foto_sendiri_3.jpg" // Ganti dengan nama file foto dia sendiri (3)
+      image: "/foto_sendiri_3.jpg"
     },
     {
       message: "Dan terima kasih sudah hadir di hidupku.",
       subtext: "Aku sangat bersyukur kita bisa saling memiliki.",
-      image: "/foto_bareng_1.jpg" // Ganti dengan nama file foto bareng (1)
+      image: "/foto_bareng_1.jpg"
     },
     {
       message: "Setiap momen bersamamu sangat berharga.",
       subtext: "I have loved you for a thousand years...",
-      image: "/foto_bareng_2.jpg" // Ganti dengan nama file foto bareng (2)
+      image: "/foto_bareng_2.jpg"
     },
     {
       message: "Semoga semua harapan baikmu terwujud.",
       subtext: "I'll love you for a thousand more. Happy Birthday! ❤️",
-      image: "/foto_sendiri_4.jpg" // Ganti dengan nama file foto dia sendiri (4)
+      image: "/foto_sendiri_4.jpg"
     }
   ];
 
@@ -183,7 +183,7 @@ function App() {
         <Stars size={32} color="#fb7185" />
       </motion.div>
 
-      <audio ref={audioRef} src="/a-thousand-years.mp3" loop />
+      <audio ref={audioRef} src="/Christina Perri - A Thousand Years [Official Music Video].mp3" loop />
 
       {!isOpen ? (
         <motion.div
